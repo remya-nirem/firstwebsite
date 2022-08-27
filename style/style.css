@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Header*/
+header {
+    background-color: lightblue;
+}
+
+#logo {
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navigation {
+    float: right;
+    padding-top: 45px;
+    padding-right: 40px;
+}
+
+.navigation a {
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 4px;
+}
+
+.navigation a:hover {
+    background-color:cadetblue;
+    color: white;
+}
+
+/* Aside*/
+.side {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 100px;
+    width: 50%;
+    float: left;
+}
+
+.side h4{
+    margin-bottom: 10px;
+}
+
+.side li{
+    padding: 2px;
+    list-style-type: square;
+}
+
+/* Login form*/
+.loginform {
+    border: 1px solid white;
+    float: right;
+    margin-top: 65px;
+    background-color: lightblue;
+    height: 13em;
+    padding: 25px;
+    margin-right: 60px;
+}
+
+.loginform h3 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#btnlogin {
+    background-color: steelblue;
+    color: white;
+    width: 100%;
+    border: none;
+    height: 1.5em;
+}
+
+/* Content */
+.container {
+    margin-top: 400px;
+    margin-left: 50px;
+}
+.box {
+    background-color: azure;
+    border: 3px solid white;
+    width:22%;
+    float: left;
+    margin-left :10px;
+    padding: 10px;
+    height: 11em;
+}
+
+.box h4 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.box a {
+    color: red;
+    text-decoration: none;
+}
+
+/* footer*/
+footer {
+    color:white;
+    text-align: center;
+    height:1.5em;
+    margin-top:42%; 
+    background-color: steelblue ;
+}
